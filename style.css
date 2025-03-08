@@ -139,3 +139,46 @@ footer {
     white-space: pre-wrap;
     word-break: break-word;
 }
+
+/* Default styles for desktop */
+body {
+    font-size: 16px;
+    /* Other desktop styles */
+}
+
+@media (max-width: 768px) {
+    .wishing-card {
+        width: 90%; /* Adjust as needed */
+        max-width: 400px;
+        padding: 50px 20px;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust as needed */
+    }
+    .message{
+        font-size: 1rem;
+    }
+    #personalized-message{
+        font-size: 1.2rem;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .heart{
+        left: calc(50% - 25px);
+    }
+}
+footer {
+    position: fixed;
+    bottom: 2px;
+    right: 0;
+    padding: 10px; /* Adjust padding as needed */
+    background-color: #f0f0f0; /* Optional background color */
+    text-align: right; /* Align text to the right */
+}
